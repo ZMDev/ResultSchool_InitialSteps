@@ -1,0 +1,5 @@
+body {
+    /* Simple variant = font-family: Verdana;*/
+    /* Redudancy variant = to use some fonts instead of 1*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
