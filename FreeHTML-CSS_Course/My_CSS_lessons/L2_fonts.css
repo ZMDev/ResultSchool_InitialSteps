@@ -1,5 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     /* Simple variant = font-family: Verdana;*/
     /* Redudancy variant = to use some fonts instead of 1*/
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+
+    /* Next step - to use imported fonts - see above import url */
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    line-height:  1.6em;
+    font-weight: normal; /* FYI normal=400, bold=900 */
+    /* text-decoration: line-through; */
+    /* font-style: italic; */
+    /* letter-spacing: 12px; */
+    /* word-spacing: 16px; */
+
+    /* Next step - to use 1 groupped font parametr */
+    font: normal 19px 'Roboto', sans-serif;
+
 }
+
+/* Next step - hierarchy example */
+/* .css p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: bold;
+} */
