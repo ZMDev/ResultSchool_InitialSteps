@@ -1,0 +1,24 @@
+/* How to comment into CSS - use Ctrl +? */
+.colour-1 {
+    color: aqua;
+}
+
+.colour-2 {
+    color: crimson;
+}
+
+/* RGB, from black = 00 to white = ff, it means #RRGGBB */
+.colour-3 {
+    color: #4B0082;
+}
+
+/* RGB aka std function*/
+.colour-4 {
+    color: rgb(red, green, blue);
+    opacity: 0.3;
+}
+
+/* RGB aka function A with Opacity - 4th parametr*/
+.colour-5 {
+    color: rgba(150, 0, 0, 1);
+}
