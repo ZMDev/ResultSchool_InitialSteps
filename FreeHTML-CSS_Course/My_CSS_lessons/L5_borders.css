@@ -1,0 +1,32 @@
+.border-1 {
+    /* border-width: 3px;
+    border-style: solid;
+    border-color: red;
+    OR */
+    border: 2px solid red;
+    border-radius: 15%;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background: orangered;
+    border-radius: 50%;
+}
+
+/* top,bottom,left,right */
+.border-2 {
+    border-top: 2px dotted green;
+    border-bottom: 3px solid greenyellow;
+    border-left: 8px dashed seagreen;
+    border-right: 4px dashed darkgreen;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.border-3 {
+    border-left: 8px solid blue;
+    background: lightsalmon;
+    padding-left: 12px;
+    color: #fff;
+}

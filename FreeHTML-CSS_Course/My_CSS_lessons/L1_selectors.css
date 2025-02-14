@@ -14,15 +14,17 @@
 header {
     border: 2px dotted goldenrod;
 }
-body {
+
+/* Turn Off body style for Lesson 4 */
+/* body {
     background: rgb(167, 156, 156);
-}
+} */
 
 /* Class Tag */
 .card {
     padding: 10px;
     background: white;
-    /* margin-bottom: 10px; */
+    margin-bottom: 10px; /* Uncomment for Lesson 5 with Borders */
 }
 
 .card p {
@@ -33,12 +35,14 @@ body {
     font-size: large;
     color: aqua;
     margin: auto;
+    background: #de4a24;  /* HTML icon colours */
 }
 
 .css {
     font-size: xx-large;
     color: cadetblue;
     margin: 10px 10px 10px 10px;
+    background: #006cb3;   /* CSS icon colours */
 }
 
 /* ID Tag */

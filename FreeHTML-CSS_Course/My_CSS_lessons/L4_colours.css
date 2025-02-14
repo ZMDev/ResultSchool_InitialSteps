@@ -1,15 +1,22 @@
 /* How to comment into CSS - use Ctrl +? */
+
+body {
+    color: #0F141E;
+    background: #F1F1F1;
+}
+
 .colour-1 {
     color: aqua;
 }
 
+/* RGB, from black = 00 to white = ff, it means #RRGGBB */
 .colour-2 {
-    color: crimson;
+    color: #4ba882;
 }
 
-/* RGB, from black = 00 to white = ff, it means #RRGGBB */
+/* RGB, short formula - #RGB */
 .colour-3 {
-    color: #4B0082;
+    color: #971;
 }
 
 /* RGB aka std function*/
