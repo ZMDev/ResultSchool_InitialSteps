@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Course - Learn Box model!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            margin: 0;
+        }
+        .container {
+        /* width: 400px; */
+        max-width: 800px;
+        margin: auto;
+        }
+        .avatar {
+            margin-top: 20px;
+            margin-left: 10px;
+            margin-bottom: 30px;
+            /* max-width: 100px;
+            max-height: 100px; */
+            border-radius: 10%;
+            box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5);
+        }
+        .box {
+            background: darkorchid;
+            color: #fff;
+            /* padding: 16px; */
+            /* top+bottom left+right */
+            /* padding: 16px 32px; */
+            /* top right bottom left */
+            /* padding: 16px 20px 10px 40px; */
+            /* padding-top: 12px;
+            padding-bottom: 10px;
+            padding-left: 4px;
+            padding-right: 24px; */
+            padding: 15px;
+            border: 4px solid red;
+            margin: 10px;
+            margin-bottom: 18px;
+        }
+        .blocks {
+            width: 100%;
+        }
+        .blocks .block {
+            width: 25%;
+            background: #000;
+            height: 40px;
+            float: left;
+            /* border: 1px dotted #fff; */
+            border: 3px dotted #fff;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="avatar">
+            <img src="avatar.jpg" alt="Avatar photo" width="100px">
+        </div>
+        <div class="box">
+            <h2>Box model N1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, dolorem.</p>
+        </div>
+    
+        <div class="box">
+            <h2>Box model N2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, dolorem.</p>
+        </div>
+    </div>
+
+    <div class="blocks">
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+    </div>
+    
+</body>
+</html>
