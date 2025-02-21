@@ -17,14 +17,26 @@
         max-width: 800px;
         margin: auto;
         }
+        .avatar-box {
+            width: 100%;
+        }
+        .avatar-block .avatar-info {
+            width: 25%;
+            float: left;
+            box-sizing: border-box;
+        }
         .avatar {
             margin-top: 20px;
             margin-left: 10px;
-            margin-bottom: 30px;
-            /* max-width: 100px;
-            max-height: 100px; */
-            border-radius: 10%;
+            margin-bottom: 15px;
+            max-width: 100px;
+            max-height: 100px;
+            border-radius: 14px;
             box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5);
+        }
+        .avatar-info {
+            margin-left: 10px;
+            margin-bottom: 30px;
         }
         .box {
             background: darkorchid;
@@ -60,9 +72,14 @@
 <body>
 
     <div class="container">
-        <div class="avatar">
-            <img src="avatar.jpg" alt="Avatar photo" width="100px">
+
+        <div class="avatar-box">
+            <div class="avatar-block">
+                <img src="avatar.jpg" alt="Avatar photo" class="avatar">
+            </div>
+            <div class="avatar-info">Avatar info</div>
         </div>
+
         <div class="box">
             <h2>Box model N1</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, dolorem.</p>
