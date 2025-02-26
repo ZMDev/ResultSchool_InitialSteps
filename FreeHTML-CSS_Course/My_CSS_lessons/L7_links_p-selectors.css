@@ -1,0 +1,37 @@
+a {
+    color: #333;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+a:hover {
+    color: orange;
+    font-size: 2rem;
+}
+
+a:visited {
+    color: red;
+}
+
+a:active {
+    color: chartreuse;
+}
+
+.css:hover {
+    background: chocolate;
+}
+
+.btn {
+    background-color: #111;
+    padding: 13px 19px;
+    color: #fff;
+    border: none;
+    cursor: crosshair;
+    border-radius: 7px;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.75;
+    color: orangered;
+}
