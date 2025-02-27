@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, css, js, course, homework, tags">
+    <meta name="description" content="This is base HTML/CSS course homeworks">
+    <title>CSS Course</title>
+    <link rel="stylesheet" href="L1_selectors.css">
+    <link rel="stylesheet" href="L2_fonts.css">
+    <link rel="stylesheet" href="L4_colours.css">
+    <link rel="stylesheet" href="L5_borders.css">
+    <link rel="stylesheet" href="L7_links_p-selectors.css">
+    <link rel="stylesheet" href="L8_lists_tables.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <!-- Formula to create List elements with Emmet -->
+        <!-- ul>(li>a{Item $})*5 -->
+        <ul>
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
+            <li><a href="#">Item 4</a></li>
+            <li><a href="#">Item 5</a></li>
+        </ul>
+    </nav>
+
+    <h1>CSS Lesson for Links and PseudoSelectors</h1>
+    
+    <header id="header" style="border: 1px dashed rgb(17, 17, 17);">
+        <h1>Next lesson - CSS with colours</h1>
+    </header>
+
+    <div class="card html">
+        <h2>HTML block</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad dolorum velit earum excepturi totam deserunt.</p>
+    </div> 
+
+    <div class="card css">
+        <h2>CSS block</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores laboriosam praesentium voluptatibus similique blanditiis atque, aut libero pariatur nulla iste, distinctio perspiciatis nam?</p>
+    </div>
+
+    <div class="card">
+        <h2>Lists & Tables</h2>
+
+        <!-- Formula to create pool List elements with Emmet -->
+        <!-- ul.lists>li(Lorem2)*5 -->
+
+        <ul class="lists">
+            <li>Lorem, ipsum.</li>
+            <li>Repellat, nemo?</li>
+            <li>Sapiente, esse!</li>
+            <li>Non, sapiente.</li>
+            <li>Sit, consectetur?</li>
+        </ul>
+    </div>
+
+    <table class="table">
+        <!-- Formula to create table elements with Emmet -->
+        <!-- (tr>(td{$})*5)*6 -->
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+    </table>
+
+    <div class="card">
+        <h2>Links & Buttons</h2>
+        <p>
+            <!-- <a href="http://" target="_blank" rel="noopener noreferrer">It's important link!</a> -->
+            <!-- <a href="#" target="_blank">It's important link!</a> -->
+            <a href="#" target="_blank" class="btn">It's important link!</a>
+        </p>
+
+        <p>
+            <button class="btn">Please press me to send a message!</button>
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Colours</h2>
+
+        <h3 class="colour-1">Colour-1</h3>
+        <h3 class="colour-2">Colour-2</h3>
+        <h3 class="colour-3">Colour-3</h3>
+        <h3 class="colour-4">Colour-4</h3>
+        <h3 class="colour-5">Colour-5</h3>
+    </div>
+
+    <div class="card">
+        <h2>Borders</h2>
+        <p class="border-1">Lorem ipsum dolor sit amet.</p>
+        <p class="border-2">Lorem ipsum dolor sit amet consectetur.</p>
+        <p class="border-3">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    </div>
+
+    <div class="circle"></div>
+    
+
+    <div>
+        <table border="1" width="400">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Job</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mick</td>
+                    <td>33</td>
+                    <td>FrontEnd</td>
+                </tr>
+                <tr>
+                    <td>Michael</td>
+                    <td>34</td>
+                    <td>BackEnd</td>
+                </tr>
+                <tr>
+                    <td>Mikhail</td>
+                    <td>37</td>
+                    <td>FullStack</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                Job list
+            </tfoot>
+        </table>
+    </div>
+    
+    <hr>
+
+    <p>
+        <a href="https://result.school/" target="_blank">It's Result University course</a>
+        <br>
+        <a href="lesson_c4.html">To previous lesson</a>
+        |
+        <a href="index.html">To home</a>
+    </p>   
+
+</body>
+</html>
