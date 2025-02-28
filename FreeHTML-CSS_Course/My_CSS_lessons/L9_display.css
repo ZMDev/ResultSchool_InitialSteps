@@ -1,0 +1,25 @@
+/* Познакомиться со свойством display.
+Узнать, разницу между значениями inline, block и inline-block */
+
+/* .inline {
+    display: flex;
+    display: inline;
+} */
+
+.inline li {
+    display: inline;
+}
+
+.box {
+    width: 33%;
+    border: 1px solid black;
+    background: #f4f4f4;
+    display: inline-block; /* Try with inline>blocl>inline-block */
+    box-sizing: border-box;
+}
+
+.img {
+    width: 120px;
+    display: block;
+    margin: 30px auto;
+}
